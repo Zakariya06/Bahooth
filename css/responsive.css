@@ -1,0 +1,199 @@
+/* media  */
+@media screen and (max-width: 992px) {
+    .customNavBar{ 
+        padding: 1rem 1rem; 
+    }
+    .customNavBar::after{ 
+        bottom: -5%;   
+        height: 2.5rem;
+        width: 2.5rem;  
+    }
+    .customNavBar .nav-link {  
+        margin: 0.4rem 0;
+        font-size: 1rem;
+    }
+    .heroContent { 
+        width: 71%;
+    }
+    .mainHeading{ 
+        font-size: 1.3rem;
+    }
+    .smText{
+        font-size: 0.9rem; 
+    }
+    .heroContent .mainHeading {
+        width: 85%;
+    }
+    .boxleft.margin {
+        margin-top: 2rem;
+    }
+    .heroSection { 
+        padding-bottom: 4rem; 
+    }
+    .heroSection.constantPadding {
+        padding: 1rem 0;
+    }
+    .heroImg{
+        aspect-ratio: 9 / 12;
+    }
+    .colectionImagnery .col-lg-4{
+        margin: 2rem 0;
+    } 
+    .dotsImgRight {
+        position: absolute;
+        right: 0%;
+        top: -5%;
+        width: 45px;
+    }
+    .dotsImgLeft {
+        position: absolute;
+        left: 0%;
+        top: -5%;
+        width: 45px;
+    }
+    .smDevice{
+        display: block;
+    }
+    .craftImg { 
+        aspect-ratio: 9 / 12; 
+    }
+    .craftContent .mainBtn {
+        margin-top: 2rem;
+    }
+    .trustedContainer {  
+        flex-wrap: wrap; 
+    }
+    .trustedCol {
+        width: 50%;
+        height: 100%; 
+    }
+    .trustedContainer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 4rem;
+    }
+    .collectionSection .boxleft {
+        width: 100%;
+    }
+    .aboutSection .ourColection .mainHeading {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+    .aboutSection .colectionImagnery {
+        padding-top: 4rem;
+    }
+    .aboutSection .colectionImagnery .mainHeading{
+        font-size: 1.4rem;
+    }
+    .aboutImg { 
+        aspect-ratio: 9 / 10; 
+    }
+    .updatedHeader .mainBtn {
+        display: none;
+    }
+    .updatedHeader .mainHeading {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .constantSpacing {
+        padding: 4rem 1.3rem;
+    }
+    .updatedCardsContainer {
+        margin-top: 1.5rem;
+    }
+    .updatedCardsContainer .card { 
+        margin: 0.5rem 0;
+    }
+    .updatedCardsContainer .card .card-body .mainHeading {
+        font-size: 1.1rem;
+        margin-top: 0.6rem;
+    }
+    .updatedCardsContainer .card .card-body .mainBtn {
+        font-size: 0.7rem;
+    }
+    .visionSection .craftImg { 
+        aspect-ratio: 9 / 12;
+    }
+    .visionSection .boxleft {
+        margin: auto;
+        width: 100%;
+    }
+    .visionSection .craftContent .mainBtn { 
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+    .desktopScreen, .lgLinks{
+        display: none;
+    }
+    .smLinks{
+        display: block;
+    }
+    .footerCol{
+        margin-top: 3rem;
+        width: 50%;
+    }
+    .smScreenForm{
+        display: block;
+        margin: 3rem 0;
+    }
+    .locationCol{ 
+        justify-content: start; 
+        margin: 0.5rem 0;
+      } 
+      .iconCol{
+        justify-content: start; 
+        margin: 0.5rem 0; 
+      }
+      .footerRowSecond .col-lg, .footerRowSecond .col-lg-3{
+        padding: 0 !important;
+      }
+      footer::after { 
+        top: -1%;
+        left: 50%; 
+    }
+    .locationCol .smText{
+        font-size: 1rem;
+    }
+
+}
+
+@media  screen and (max-width: 554px) {
+    .dotsImgLeft, .dotsImgRight{
+        top: -14%;
+        width: 35px;
+    }
+    .heroSection .carousel-control-next, .heroSection .carousel-control-prev {
+        width: 16%;
+    }
+    .heroContent { 
+        left: 3%;
+        width: 85%;
+    }
+    .mainBtn { 
+        font-size: 0.8rem; 
+        padding: 0.4rem 2rem;
+    }
+    .mainBtn.btnFill { 
+        padding: 0.4rem 2rem; 
+    }
+    .heroTextBox { 
+        align-items: flex-start;
+        flex-direction: column; 
+    }
+    .heroBtn{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+    .boxleft{
+        width: 100%;
+    }
+    .heroImg {
+        aspect-ratio: 9 / 16;
+    }
+    .colectionImagnery {
+        padding-top: 2rem;
+    }
+   
+}
